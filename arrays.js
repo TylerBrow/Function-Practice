@@ -19,22 +19,34 @@ var instructors = [
 // 1. Find largest number
 // ---------------------------
 
+console.log(Math.max(...numbers))
 
 // ---------------------------
 // 2. Find longest string
 // ---------------------------
 
 
+
 // ---------------------------
 // 3. Find even numbers
 // ---------------------------
 
+numbers.forEach(element => {
+    if(element % 2 === 0) {
+        console.log(element)
+    }
+})
 
 
 // ---------------------------
 // 4. Find odd numbers
 // ---------------------------
 
+numbers.forEach(element => {
+    if(element % 2 !== 0) {
+        console.log(element)
+    }
+})
 
 // ---------------------------
 // 5. Find words that contain `is`
@@ -46,7 +58,7 @@ var instructors = [
 // 5. Join Both Arrays Together
 // ---------------------------
 
-
+console.log(numbers.concat(strings))
 
 
 // ---------------------------
